@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YL.Web.Api.ThirdParty.InstantSettlement.Client", "src\YL.Web.Api.ThirdParty.InstantSettlement.Client\YL.Web.Api.ThirdParty.InstantSettlement.Client.csproj", "{5967ACF5-4412-4EEC-9BFD-7C172D2452BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YL.Web.Api.ThirdParty.InstantSettlement.Client.Test", "src\YL.Web.Api.ThirdParty.InstantSettlement.Client.Test\YL.Web.Api.ThirdParty.InstantSettlement.Client.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9694C4E3-7D93-4F22-86CF-4551845AAF88}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2DFDF182-9D4B-4281-8D7F-41F918C01D3B}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CreateInstantSettlementTransactionModel.md = docs\CreateInstantSettlementTransactionModel.md
+		docs\InstantSettlementApi.md = docs\InstantSettlementApi.md
+		docs\InstantSettlementTransactionModel.md = docs\InstantSettlementTransactionModel.md
+		docs\InstantSettlementView.md = docs\InstantSettlementView.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5967ACF5-4412-4EEC-9BFD-7C172D2452BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5967ACF5-4412-4EEC-9BFD-7C172D2452BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5967ACF5-4412-4EEC-9BFD-7C172D2452BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5967ACF5-4412-4EEC-9BFD-7C172D2452BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DFDF182-9D4B-4281-8D7F-41F918C01D3B} = {9694C4E3-7D93-4F22-86CF-4551845AAF88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28D8619-F717-4D20-8203-A69E1ACDEFC8}
+	EndGlobalSection
+EndGlobal
